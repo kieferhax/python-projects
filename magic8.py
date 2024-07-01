@@ -22,7 +22,7 @@ elif num == 8:
 elif num == 9:  
   answer = "Very doubtful."
 else:
-  answer = "Sorry, something is wrong with my brains :("
+  answer = "Sorry, something is wrong with my brains :(" # Error check
 
   
 print("Magic 8 Ball: " + answer)
