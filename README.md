@@ -1,2 +1,2 @@
-# python-projects
-Python basics showcase
+# Python Projects!
+Showcasing basic Python projects I have worked on for now...
