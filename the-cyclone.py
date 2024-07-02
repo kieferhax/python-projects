@@ -17,7 +17,5 @@ elif height < 137 and credit >= 10:
   print("You are not tall enough to ride.")
 elif height >= 137 and credit < 10:
   print("You don't have enough credits.")
-elif height < 137 and credit < 10:
-  print("You have not met either requirements")
 else:
-  print("System error; try again")
+  print("You have not met either requirements")
