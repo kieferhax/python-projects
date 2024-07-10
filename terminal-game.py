@@ -56,11 +56,75 @@ scene2 = input('Choose your fate: ')
 
 # Scene 2 Logic
 if scene2 == 'a' or scene2 == 'A':
-  print('ou are greeted warmly by the alien leader, who shares their knowledge of the tyrannical empire and proposes an alliance.')
+  print('You are greeted warmly by the alien leader, who shares their knowledge of the tyrannical empire and proposes an alliance.')
   print('This new friendship could prove essential in your fight against the empire.')
 elif scene2 == 'b' or scene2 == 'B':
   print('You decline the invitation and focus on studying their advanced technology.')
   print('You manage to hack into their systems, discovering blueprints for a powerful weapon that could turn the tide in your favor.')
+else:
+  print('That is not an option, please try again.')
+  input('Choose your fate: ')
+
+# Epic 3
+print('Epic 3: The Secret Mission...')
+print('')
+print('You receive intel about an enemy base housing crucial information...')
+print('A: Sneak into the enemy base to gather intelligence.')
+print('B: Launch a direct assault on the enemy base.')
+
+# Scene 3
+scene3 = input('Choose your fate: ')
+
+# Scene 3 Logic
+if scene3 == 'a' or scene3 == 'A':
+  print('Under the cover of darkness, you infiltrate the enemy base.')
+  print('You gather crucial intel on the empire’s plans, including the location of their secret weapon.')
+  print('Your stealthy approach ensures you remain undetected, setting the stage for a strategic advantage.')
+elif scene3 == 'b' or scene3 == 'B':
+  print('Leading a daring attack, you and your crew storm the enemy base.')
+  print('The fierce battle results in heavy casualties on both sides, but you manage to capture vital enemy officers who divulge the empire’s next move.')
+else:
+  print('That is not an option, please try again.')
+  input('Choose your fate: ')
+
+# Epic 4
+print('Epic 4: The Betrayal...')
+print('')
+print('A defecting enemy officer offers valuable information...')
+print('A: Trust the defecting enemy officer’s intel.')
+print('B: Capture the defecting officer for interrogation.')
+
+# Scene 4
+scene4 = input('Choose your fate: ')
+
+# Scene 4 Logic
+if scene4 == 'a' or scene4 == 'A':
+  print('Taking a leap of faith, you believe the defecting officer’s information.')
+  print('Their intel leads you to a hidden empire base, which you successfully sabotage, delaying the empire’s plans and gaining a crucial upper hand.')
+elif scene4 == 'b' or scene4 == 'B':
+  print('You detain the officer, extracting information through rigorous interrogation.')
+  print('The officer’s intel reveals a plot within the empire to overthrow their own leaders, providing an opportunity to sow discord among your enemies.')
+else:
+  print('That is not an option, please try again.')
+  input('Choose your fate: ')
+
+# Epic 5
+print('Epic 5: The Final Battle...')
+print('')
+print('The time has come for a decisive confrontation with the empire...')
+print('A: Lead a coalition of alien civilizations against the empire.')
+print('B: Launch a stealth mission to disable the empire’s superweapon.')
+
+# Scene 5
+scene5 = input('Choose your fate: ')
+
+# Scene 5 Logic
+if scene5 == 'a' or scene5 == 'A':
+  print('Rallying your newfound allies, you lead a massive coalition fleet against the empire.')
+  print('The combined might of diverse civilizations overwhelms the enemy, resulting in a decisive victory that liberates the galaxy from tyranny.')
+elif scene5 == 'b' or scene5 == 'B':
+  print('Opting for a covert approach, you and a select team infiltrate the empire’s superweapon facility.')
+  print('With precise execution, you disable the weapon, preventing mass destruction and turning the tide of war in your favor.')
 else:
   print('That is not an option, please try again.')
   input('Choose your fate: ')
