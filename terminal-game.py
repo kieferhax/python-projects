@@ -45,7 +45,8 @@ elif scene1 == 'b' or scene1 == 'B':
   print('This information could be invaluable for future encounters.')
 else:
   print('That is not an option, please try again.')
-  input('Choose your fate: ')
+  while scene1 not in ['a', 'A', 'b', 'B']:
+      scene1 = input('Choose your fate: ')
 print('')
 
 # Epic 2
@@ -69,7 +70,8 @@ elif scene2 == 'b' or scene2 == 'B':
   print('You manage to hack into their systems, discovering blueprints for a powerful weapon that could turn the tide in your favor.')
 else:
   print('That is not an option, please try again.')
-  input('Choose your fate: ')
+  while scene2 not in ['a', 'A', 'b', 'B']:
+      scene2 = input('Choose your fate: ')
 print('')
 
 # Epic 3
@@ -94,7 +96,8 @@ elif scene3 == 'b' or scene3 == 'B':
   print('The fierce battle results in heavy casualties on both sides, but you manage to capture vital enemy officers who divulge the empire’s next move.')
 else:
   print('That is not an option, please try again.')
-  input('Choose your fate: ')
+  while scene3 not in ['a', 'A', 'b', 'B']:
+      scene3 = input('Choose your fate: ')
 print('')
 
 # Epic 4
@@ -118,7 +121,8 @@ elif scene4 == 'b' or scene4 == 'B':
   print('The officer’s intel reveals a plot within the empire to overthrow their own leaders, providing an opportunity to sow discord among your enemies.')
 else:
   print('That is not an option, please try again.')
-  input('Choose your fate: ')
+  while scene4 not in ['a', 'A', 'b', 'B']:
+      scene4 = input('Choose your fate: ')
 print('')
 
 # Epic 5
@@ -142,4 +146,5 @@ elif scene5 == 'b' or scene5 == 'B':
   print('With precise execution, you disable the weapon, preventing mass destruction and turning the tide of war in your favor.')
 else:
   print('That is not an option, please try again.')
-  input('Choose your fate: ')
+  while scene5 not in ['a', 'A', 'b', 'B']:
+      scene5 = input('Choose your fate: ')
