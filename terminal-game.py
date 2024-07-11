@@ -18,15 +18,18 @@ name = input('Enter your name, cadet: ')
 rank = input('Enter your rank: ')
 galaxy = input('Enter your home galaxy: ')
 print('                                                                                     ')
-print(f'Welcome aboard {rank} {name} from the {galaxy} Galaxy. Lets begin our mission...')
+print(f'Welcome aboard {rank} {name} from the {galaxy} Galaxy.')
+print('Lets begin our mission...')
 print('')
 
 # Epic 1
 print('Epic 1: The Initial Encounter...')
 print('')
 print('Your spaceship encounters a mysterious alien vessel in deep space...')
+print('')
 print('A: Approach the mysterious spaceship')
 print('B: Hide behind an asteroid and observe.')
+print('')
 
 # Scene1
 scene1 = input('Choose your fate: ')
@@ -43,13 +46,16 @@ elif scene1 == 'b' or scene1 == 'B':
 else:
   print('That is not an option, please try again.')
   input('Choose your fate: ')
+print('')
 
 # Epic 2
 print('Epic 2: Alien Diplomacy...')
 print('')
 print('The aliens extend a diplomatic invitation after your initial contact...')
+print('')
 print('A: Accept the invitation to meet the alien leader.')
 print('B: Decline and investigate their technology instead.')
+print('')
 
 # Scene 2
 scene2 = input('Choose your fate: ')
@@ -64,13 +70,16 @@ elif scene2 == 'b' or scene2 == 'B':
 else:
   print('That is not an option, please try again.')
   input('Choose your fate: ')
+print('')
 
 # Epic 3
 print('Epic 3: The Secret Mission...')
 print('')
 print('You receive intel about an enemy base housing crucial information...')
+print('')
 print('A: Sneak into the enemy base to gather intelligence.')
 print('B: Launch a direct assault on the enemy base.')
+print('')
 
 # Scene 3
 scene3 = input('Choose your fate: ')
@@ -86,13 +95,16 @@ elif scene3 == 'b' or scene3 == 'B':
 else:
   print('That is not an option, please try again.')
   input('Choose your fate: ')
+print('')
 
 # Epic 4
 print('Epic 4: The Betrayal...')
 print('')
 print('A defecting enemy officer offers valuable information...')
+print('')
 print('A: Trust the defecting enemy officer’s intel.')
 print('B: Capture the defecting officer for interrogation.')
+print('')
 
 # Scene 4
 scene4 = input('Choose your fate: ')
@@ -107,13 +119,16 @@ elif scene4 == 'b' or scene4 == 'B':
 else:
   print('That is not an option, please try again.')
   input('Choose your fate: ')
+print('')
 
 # Epic 5
 print('Epic 5: The Final Battle...')
 print('')
 print('The time has come for a decisive confrontation with the empire...')
+print('')
 print('A: Lead a coalition of alien civilizations against the empire.')
 print('B: Launch a stealth mission to disable the empire’s superweapon.')
+print('')
 
 # Scene 5
 scene5 = input('Choose your fate: ')
