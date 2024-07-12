@@ -1,4 +1,7 @@
-import pandas as pd
+try:
+    import pandas as pd
+except ImportError:
+    print("Please make sure pandas is installed. You can install it by running 'pip install pandas' in your terminal.")
 import matplotlib.pyplot as plt
 
 # Load the dataset
