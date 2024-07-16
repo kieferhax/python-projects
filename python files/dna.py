@@ -14,8 +14,16 @@ item_to_find = 'CAT'
 item_found = False
 
 # Loop through each item in the dna_sequence list. Inside, use an if statement to test if a given item is equal to the item_to_find. If so, set item_found to True.
-
+for i in dna_sequence:
+    if i == item_found:
+        item_found == True
+    else:
+        item_found == False
 
 # Outside the loop, use an if/else statement to check if item_found is True:
 # If so, print something like "Item Found!"
 # Else, print something like "Item not found."
+if item_found == True:
+    print('Item Found!')
+else:
+    print('Item not found.')
