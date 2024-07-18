@@ -22,4 +22,4 @@ print(list(range(1, 6)))
 print(list(range(0, 10, 2)))
 
 # the help() function in Python is used to get help information about a specified object, module, function, class, or keyword.
-# help(print)
+help(print)
