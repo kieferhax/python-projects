@@ -19,4 +19,4 @@ bobs_burgers.rating = 4.7
 bobs_burgers.delivery = False
 
 # Once you do that, create two more instances of the Restaurant class with your favorite dinner spots nearby.
-print(vars(bobs_burgers))
+print(vars(bobs_burgers.))
