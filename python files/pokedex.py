@@ -26,15 +26,15 @@ class Pokemon:
 
 # Create another instance method called .display_details() that prints the attributes of a Pokemon object
     def display_details(self):
-        print("Entry Number: " + self.entry)
+        print("Entry Number: " + str(self.entry))
         print("Name: " + self.name)
-        print("Level: " + self.level)
-        print("Height: " + self.height)
-        print("Weight: " + self.weight)
-        print("Type: " + self.type)
+        print("Level: " + str(self.level))
+        print("Height: " + str(self.height) + " centimeters")
+        print("Weight: " + str(self.weight) + " lbs")
+        print("Type: " + str(self.type))
         print("Region: " + self.region)
-        print("Caught: " + self.is_caught)
-        print("Description: " + self.description)
+        print("Caught: " + str(self.is_caught))
+        print("Description: " + str(self.description))
 
 # Lastly create 3 Pokemon class objects and use the .speak() and .display_details() instance methods for each one
 raichu = Pokemon(26, 'Raichu', 50, 76.2, 66.1, ['Electric'], 'Alola', 'Its tail discharges electricity into the ground, protecting it from getting shocked.', True)
@@ -45,5 +45,9 @@ ninetales= Pokemon(38, 'Ninetales', 65, 109.22, 43.9, ['Fire'], 'Kanto', 'Some l
 
 ninetales.speak()
 ninetales.display_details()
+arcanine.speak()
+arcanine.display_details()
+raichu.speak()
+raichu.display_details()
 
 # Bonus: For all the super fans, try and add more attributes to the Pokemon class definition, like level, region, height, or weight.
