@@ -44,5 +44,6 @@ arcanine = Pokemon(59, 'Arcanine', 59, 190.5, 341.7, ['Fire'], 'Kanto', 'Its mag
 ninetales= Pokemon(38, 'Ninetales', 65, 109.22, 43.9, ['Fire'], 'Kanto', 'Some legends claim that each of its nine tails has its own unique type of special mystical power.', True)
 
 ninetales.speak()
+ninetales.display_details()
 
 # Bonus: For all the super fans, try and add more attributes to the Pokemon class definition, like level, region, height, or weight.
