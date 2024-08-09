@@ -22,7 +22,7 @@ class Pokemon:
 # Next create an instance method called .speak() that prints a string of the sound a Pokemon makes.
 # A Pokemon usually just says their name, so make the .speak() simply print out their name twice
     def speak(self):
-        print(self.name + self.name)
+        print(self.name + "! " + self.name + "!")
 
 # Create another instance method called .display_details() that prints the attributes of a Pokemon object
     def display_details(self):
@@ -43,6 +43,6 @@ arcanine = Pokemon(59, 'Arcanine', 59, 190.5, 341.7, ['Fire'], 'Kanto', 'Its mag
 
 ninetales= Pokemon(38, 'Ninetales', 65, 109.22, 43.9, ['Fire'], 'Kanto', 'Some legends claim that each of its nine tails has its own unique type of special mystical power.', True)
 
-ninetales.speak
+ninetales.speak()
 
 # Bonus: For all the super fans, try and add more attributes to the Pokemon class definition, like level, region, height, or weight.
