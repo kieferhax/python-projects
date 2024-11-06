@@ -49,7 +49,6 @@ class Pokemon:
         print(f"{other_pokemon.name} takes {damage} damage and now has {other_pokemon.hp} HP.")
 
     def calculate_damage(self, other_pokemon):
-        # Simple damage calculation considering type advantage/disadvantage
         type_advantage = self.type_advantage(other_pokemon)
         damage = (self.attack - other_pokemon.defense) * type_advantage
         if damage < 0:
@@ -57,12 +56,10 @@ class Pokemon:
         return damage
 
     def type_advantage(self, other_pokemon):
-        # Simplified type advantage logic
         type_chart = {
             'Fire': {'weak': ['Water', 'Rock'], 'strong': ['Grass', 'Bug']},
             'Water': {'weak': ['Electric', 'Grass'], 'strong': ['Fire', 'Rock']},
             'Electric': {'weak': ['Ground'], 'strong': ['Water', 'Flying']},
-            # Add more types as needed
         }
         advantage = 1
         for t in self.type:
@@ -77,8 +74,6 @@ class Pokemon:
         if self.status == 'Poisoned':
             self.hp -= 5
             print(f"{self.name} is hurt by poison and loses 5 HP.")
-        # Add more status effects as needed
-
 
 def battle(pokemon1, pokemon2):
     print(f"Battle between {pokemon1.name} and {pokemon2.name}!")
